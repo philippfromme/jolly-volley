@@ -1,0 +1,27 @@
+html,
+body,
+#app {
+  margin: 0;
+  height: 100%;
+}
+
+#app {
+  width: 800px;
+  height: 600px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -300px);
+  font-family: "Roboto", sans-serif;
+  color: #ccdbdc;
+}

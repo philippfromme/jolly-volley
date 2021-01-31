@@ -1,0 +1,21 @@
+{
+  "name": "jolly-volley",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "matter-js": "0.16.0",
+    "min-dash": "3.5.2",
+    "p5": "^1.2.0",
+    "poly-decomp": "0.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": []
+}
